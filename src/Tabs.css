@@ -1,0 +1,28 @@
+.TabArea-Tabs-Tab {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100px;
+  padding: 4px;
+  border: 1px inset white;
+  color: white;
+  filter: drop-shadow(2px 2px 2px #a70000);
+  text-shadow: 1px 2px #a00000;
+  border-radius: 4px;
+  background-color: black;
+}
+
+.TabArea-Tabs {
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TabArea-Tabs-Tab.selected {
+  color: #ffffff;
+  text-shadow: 2px 3px #a00000;
+  font-weight: bold;
+}
+
+.TabArea-Content {
+  text-align: center;
+}
